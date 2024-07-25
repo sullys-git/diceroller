@@ -1,0 +1,50 @@
+body {
+    background-color: #490a0a;
+}
+#dice-game {
+    text-align: center;
+    margin: 100px auto;
+    padding: 25px;
+    border-radius: 10px;
+    width: 60%;
+    font-size: 1.5em;
+    min-height: 350px;
+    box-shadow: 4px 4px 12px;
+    background-color: white;
+}
+.black{
+    background-color: black;
+}
+
+#num-dice {
+    height: 25px;
+    width: 60px;
+    text-align: center;
+}
+
+#rollDice {
+    margin-top: 25px;
+    padding: 15px 25px;
+    color: white;
+    background-color: #000;
+    font-size: 1.25em;
+    border: none;
+    border-radius: 5px;
+}
+
+#rollDice:hover {
+    background-color: #490a0a;
+    box-shadow: 4px 4px 12px #00000082;
+}
+
+.dice-img {
+    width: 50px;
+}
+
+#dice-display {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    min-height: 55px;
+}
